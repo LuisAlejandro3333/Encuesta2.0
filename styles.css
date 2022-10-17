@@ -1,0 +1,111 @@
+.hidden {
+    background-color: #ede8e4;
+    color: #1d3a42;
+    border: 4px solid #5e4630;
+    border-radius: 6px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.quiz__btn {
+    background-color: #eecb6e;
+    color: #ffffff;
+    padding: 0.75rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resultscreen {
+    display: none;
+}
+.question__awswers {
+    list-style-type: none;
+    padding-left: 0;
+}
+.awswer {
+    border: 2px solid #1d3a42;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.answer--correct {
+    background-color: #473c3c;
+}
+.answer--wrong {
+    background-color: #473c3c;
+}
+.questionscreen {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.block{
+    display: block;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Market.jpeg");
+    background-position: center;
+    background-size: cover;
+color:#ffffff
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+    align-content:center ;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+}
+.contenedor {
+    background-color: #ffffff;
+    color: #1d3a42;
+    border: 4px solid #5e4630;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input{
+    width: 15rem;
+    height: 20px;
+    border: #1d1d1d 2px solid;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.boton{
+    margin: 1px;
+    padding: 3px;
+    border: #1d1d1d 2px solid;
+    border-radius: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boton1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: #707070 2px solid;
+    border-radius: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
